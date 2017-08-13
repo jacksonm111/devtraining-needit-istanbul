@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="NeedIt_users" max_length="40" name="x_58872_needit_needit_users" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User ID" max_length="40" name="user_id" reference="sys_user" type="string" use_dynamic_default="true"/>
+    </element>
+</database>
